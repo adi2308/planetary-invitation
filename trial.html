@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary Alignment Invitation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            background-image: url('/Users/adnan/Downloads/universe.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            animation: backgroundAnimation 20s infinite alternate;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                filter: brightness(0.8);
+            }
+            50% {
+                filter: brightness(1);
+            }
+            100% {
+                filter: brightness(0.8);
+            }
+        }
+
+        .alignment {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+            max-width: 600px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message {
+            margin-top: 20px;
+            font-size: 1.4em;
+            line-height: 1.6;
+            animation: messageFade 3s ease-in-out;
+        }
+
+        @keyframes messageFade {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #ff69b4;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ff85c8;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="alignment">
+        <h1>✨ A Celestial Moment Awaits Us ✨</h1>
+        <div class="message">
+            My Dearest Juli,<br><br>
+            Beneath the infinite canvas of the universe, where stars dance and planets align in a celestial symphony, lies a truth so profound: everything finds its place when the time is right. You and I, mere specks in this vast cosmos, might seem insignificant against its grandeur. Yet to me, you are the rarest and most precious dust—a treasure that outshines even the stars.<br><br>
+            On the 25th of January, as the heavens orchestrate their perfect alignment, creating an evening kissed by destiny, I find myself longing for a moment with you. A night under the stars, with nothing but our hearts speaking their truth. Would you honor me with the joy of taking you on our very first date? A beginning written in the stars, just for us. ✨
+        </div>
+        <a href="#" class="button">Yes, let’s align our stars! 🚀</a>
+    </div>
+</body>
+</html>
+
+
+
+
+
